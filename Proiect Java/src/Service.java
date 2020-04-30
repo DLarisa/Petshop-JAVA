@@ -36,7 +36,16 @@ public class Service {
         this.adoptatori = new ArrayList<Adoptator>();
         this.vanzatori = new ArrayList<Vanzator>();
     }
-
+    
+    public List<Dragon> getDragoni()
+    { return this.dragoni; }
+    public List<Phoenix> getPhoenixes()
+    { return this.phoenixes; }
+    public List<Trol> getTroli()
+    { return this.troli; }
+    public List<Zana> getZane()
+    { return this.zane; }
+    
     public void afisareBani() { System.out.println(this.SUMA_MAGAZIN); }
 
     public void adaugareAnimal(Animal a) { this.animale.add(a); }
